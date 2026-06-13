@@ -1,0 +1,24 @@
+# ── Dependencies ──────────────────────────────────────────────
+node_modules/
+dist/
+build/
+
+# ── Environment ───────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Uploads (runtime) ─────────────────────────────────────────
+server/uploads/*
+!server/uploads/.gitkeep
+
+# ── OS / Editor ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/settings.json
+*.log
+*.pid
+
+# ── TypeScript build artifacts ────────────────────────────────
+*.tsbuildinfo
